@@ -1,0 +1,23 @@
+How can you use the staging area to make sure you have one commit per logical change?
+
+- use 'git add' to add the change to stage
+- use git diff to check the change
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+- use 'git branch new_branch_name'
+- use 'git checkout new_branch_name'
+- use shortcut of above two 'git checkout -b new_branch_name' 
+- different braches to experiment new features or add another language.
+
+How do the diagrams help you visualize the branch structure?
+
+- diagrams can tell us the reachability of the branches 
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+- Merging two branches together to one branch. Both of the branches are the parents of the new branch.
+
+
+log and diff operates on branch, and branch refers to commit
